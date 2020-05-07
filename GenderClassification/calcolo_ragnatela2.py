@@ -7,8 +7,7 @@ from pylab import *
 import PIL.Image as im
 import csv
 import sys
-
-import pandas
+import pandas as pd
 from imutils import face_utils
 import numpy as np
 import argparse
@@ -21,6 +20,9 @@ from PIL import ImageDraw
 from string import Template
 import string
 
+filegender=pd.read_csv('train_gtruth.csv', index_col=0)
+array = np.genfromtxt ("train_gtruth.csv", delimiter = ",", skip_header = 1)
+array=array.astype(int)
 
 def distanza(x1, y1, x2, y2):
     x12 = (x2 - x1) * (x2 - x1)
@@ -28,7 +30,6 @@ def distanza(x1, y1, x2, y2):
     xy = x12 + y12
     dist = math.sqrt(xy)
     return dist
-
 
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
@@ -43,18 +44,18 @@ fetteQ = 4  # fette per quadrante
 fette = fetteQ * 4
 s1 = cerchi * fette
 
-# dizionario = np.zeros((2223, s1))
-
-file = [[0 for y in range(s1+1)] for x in range(341)]
+file = [[0 for y in range(s1+2)] for x in range(13)]
 
 # in range inseriamo il numero di immagine da dare in input alla ragnatela
-dizionario = [[0 for y in range(s1)] for x in range(341)]
+dizionario = [[0 for y in range(s1)] for x in range(13)]
 # x = width
 # y = height
 
 dizionario=np.array(dizionario, dtype=int)
 
-dizionario_str = ['' for xx in range(341)]
+dizionario_str = ['' for xx in range(13)]
+
+dizionario_gen = ['' for xx in range(13)]
 
 volto = np.zeros(s1)
 
@@ -63,8 +64,6 @@ def aggiungi(xcentro, ycentro, rax, xpunto, ypunto, distNaso, coeff, immm):
     indice = 0
 
     settore = np.zeros(3)  # cerchio, quadrante, fetta
-
-    # distNaso =  distanza dal naso
 
     a = 0  # a = raggioStart
     b8 = 4 * rax / 10  # b = raggioStop
@@ -122,10 +121,6 @@ def aggiungi(xcentro, ycentro, rax, xpunto, ypunto, distNaso, coeff, immm):
     if (settore[2] == 0):
         settore[2] = fetteQ
 
-        # settore[0] = cerchio
-        # settore[1] = quadrante
-        # settore[2] = fetta
-
     if (settore[1] == 1 or settore[1] == 3):
         indice = int(fette * (settore[0] - 1) + fetteQ * (settore[1] - 1) + abs(settore[2] - 4) - 1)
     else:
@@ -138,8 +133,6 @@ def aggiungi(xcentro, ycentro, rax, xpunto, ypunto, distNaso, coeff, immm):
         # else:
         print("ERROOOOOOOREEEEEE------")
         print("indice ", indice)
-
-        # print("xnose ", xnose, " xpunto ", xpunto, " ynose ", ynose , " ypunto " , ypunto)
 
     return indice
 
@@ -173,8 +166,6 @@ for img in immagini:
 
         rects = detector(foto, 1)
 
-        # print("tick detector " , time.time() - tick_detector)
-
         dista = 0
         raggio = 0
 
@@ -182,86 +173,63 @@ for img in immagini:
         d = 0
         n = 1
         imga = zeros([512, 512, 3])
-        for (i, rect) in enumerate(rects):
 
-            tick_predictor = time.time()
+        if size(rects) == 1:
+            for (i, rect) in enumerate(rects):
+                tick_predictor = time.time()
 
-            shape = predictor(gray, rect)
+                shape = predictor(gray, rect)
 
-            # print("tick predictor ", time.time() - tick_predictor)
+                shape = face_utils.shape_to_np(shape)
+                (x, y, w, h) = face_utils.rect_to_bb(rect)
+                # cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                xnose = shape[33][0]
+                ynose = shape[33][1]
 
-            shape = face_utils.shape_to_np(shape)
-            (x, y, w, h) = face_utils.rect_to_bb(rect)
-            # cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-            xnose = shape[33][0]
-            ynose = shape[33][1]
+                for (x, y) in shape:
+                    tick_volto = time.time()
 
-            for (x, y) in shape:
+                    dista = distanza(xnose, ynose, x, y)
+                    if (dista > raggio):
+                        raggio = dista
+                        xlont = x  # coordinata x del punto più lontano dal naso
+                        ylont = y  # coordinata y del punto più lontano dal naso
+                for (x, y) in shape:
+                    settore = [0, 0, 0]
+                    if (y == ynose):
+                        m = 0
+                    else:
+                        m = (x - xnose) / (y - ynose)
+                    m = abs(m)
 
-                tick_volto = time.time()
+                    d = distanza(xnose, ynose, x, y)
 
-                dista = distanza(xnose, ynose, x, y)
-                if (dista > raggio):
-                    raggio = dista
-                    xlont = x  # coordinata x del punto più lontano dal naso
-                    ylont = y  # coordinata y del punto più lontano dal naso
-            for (x, y) in shape:
-                settore = [0, 0, 0]
-                if (y == ynose):
-                    m = 0
-                else:
-                    m = (x - xnose) / (y - ynose)
-                m = abs(m)
+                    tick_punto = time.time()
 
-                d = distanza(xnose, ynose, x, y)
+                    nnn = aggiungi(xnose, ynose, raggio, x, y, d, m, imga)
 
-                tick_punto = time.time()
-
-                nnn = aggiungi(xnose, ynose, raggio, x, y, d, m, imga)
-
-                # print("tick punto " , time.time() - tick_punto)
-
-                ## E SE è LA PUNTA DEL NASO ?
-                # try:
-                # except:
-                # print(num_volto)
-                # dizionario stringa = nome immagine
-
-                # nstr = str(nnn)
-
-                # if (x == xnose and y == ynose):
-                # nstr = "0"
-
-                # cv2.putText(imga, nstr, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+        else:
+            continue
 
         dizionario[num_volto] = volto
-
-        # print("-----------------------------------------")
-
-        # print("tick_volto = ",  time.time() - tick_volto)
 
         nomeimagine = str(img)
         dimensione = len(nomeimagine)
         nomeimagine = nomeimagine[:dimensione - 4]
-        print(num_volto)
+
         dizionario_str[num_volto] = int(nomeimagine)
 
-        file[num_volto] = np.append(dizionario[num_volto], [dizionario_str[num_volto]])
+        for (a) in array:
+            if (a[0]) == (dizionario_str[num_volto]):
+                dizionario_gen[num_volto]=int(a[4])
+                break
+
+
+        file[num_volto] = np.append(dizionario[num_volto], [dizionario_str[num_volto]] )
+        file[num_volto] = np.append(file[num_volto], [dizionario_gen[num_volto]])
 
         num_volto = num_volto + 1
         if ((num_volto % 200) == 0):
             print(num_volto)
 
-
-
-pandas.DataFrame(file).to_csv("file.csv")
-
-# cv2.imwrite("gen_settore.png", imga)
-
-# cv2.imshow('image',imga)
-
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
-
-# f = open('test.txt', 'w')
-# f.close()
+pd.DataFrame(file).to_csv("file2.csv")
