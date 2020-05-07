@@ -44,18 +44,18 @@ fetteQ = 4  # fette per quadrante
 fette = fetteQ * 4
 s1 = cerchi * fette
 
-file = [[0 for y in range(s1+2)] for x in range(13)]
+file = [[0 for y in range(s1+2)] for x in range(100187)]
 
 # in range inseriamo il numero di immagine da dare in input alla ragnatela
-dizionario = [[0 for y in range(s1)] for x in range(13)]
+dizionario = [[0 for y in range(s1)] for x in range(100187)]
 # x = width
 # y = height
 
 dizionario=np.array(dizionario, dtype=int)
 
-dizionario_str = ['' for xx in range(13)]
+dizionario_str = ['' for xx in range(100187)]
 
-dizionario_gen = ['' for xx in range(13)]
+dizionario_gen = ['' for xx in range(100187)]
 
 volto = np.zeros(s1)
 
@@ -66,11 +66,11 @@ def aggiungi(xcentro, ycentro, rax, xpunto, ypunto, distNaso, coeff, immm):
     settore = np.zeros(3)  # cerchio, quadrante, fetta
 
     a = 0  # a = raggioStart
-    b8 = 4 * rax / 10  # b = raggioStop
+    b8 = 1 * rax / 15  # b = raggioStop
     i = 1  # in quale cerchio cade il punto. i = [1, cerchi]
 
-    b4 = 7 * rax / 10
-    b2 = 9 * rax / 10
+    b4 = 3 * rax / 15
+    b2 = 7 * rax / 15
 
     # cerchi
     if (distNaso > a and distNaso <= b8):
@@ -233,3 +233,5 @@ for img in immagini:
             print(num_volto)
 
 pd.DataFrame(file).to_csv("file2.csv")
+
+print(num_volto)

@@ -44,18 +44,18 @@ fetteQ = 4  # fette per quadrante
 fette = fetteQ * 4
 s1 = cerchi * fette
 
-file = [[0 for y in range(s1+2)] for x in range(13)]
+file = [[0 for y in range(s1+2)] for x in range(100187)]
 
 # in range inseriamo il numero di immagine da dare in input alla ragnatela
-dizionario = [[0 for y in range(s1)] for x in range(13)]
+dizionario = [[0 for y in range(s1)] for x in range(100187)]
 # x = width
 # y = height
 
 dizionario=np.array(dizionario, dtype=int)
 
-dizionario_str = ['' for xx in range(13)]
+dizionario_str = ['' for xx in range(100187)]
 
-dizionario_gen = ['' for xx in range(13)]
+dizionario_gen = ['' for xx in range(100187)]
 
 volto = np.zeros(s1)
 
@@ -233,3 +233,5 @@ for img in immagini:
             print(num_volto)
 
 pd.DataFrame(file).to_csv("file1.csv")
+
+print(num_volto)
