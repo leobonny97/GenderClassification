@@ -24,6 +24,7 @@ filegender=pd.read_csv('train_gtruth.csv', index_col=0)
 array = np.genfromtxt ("train_gtruth.csv", delimiter = ",", skip_header = 1)
 array=array.astype(int)
 
+
 def distanza(x1, y1, x2, y2):
     x12 = (x2 - x1) * (x2 - x1)
     y12 = (y2 - y1) * (y2 - y1)
