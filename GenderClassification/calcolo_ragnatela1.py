@@ -20,7 +20,6 @@ from PIL import ImageDraw
 from string import Template
 import string
 
-filegender=pd.read_csv('train_gtruth.csv', index_col=0)
 array = np.genfromtxt ("train_gtruth.csv", delimiter = ",", skip_header = 1)
 array=array.astype(int)
 
