@@ -38,11 +38,4 @@ disp.figure_.suptitle("Confusion Matrix")
 print("Confusion matrix:\n%s" % disp.confusion_matrix)
 plt.show()
 
-maschi=0
-femmine=0
-for i in y_test:
-    if i==0:
-        maschi=maschi+1
-    else:
-        femmine=femmine+1
 
