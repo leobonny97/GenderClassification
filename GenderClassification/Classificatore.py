@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn import datasets, svm, metrics
 from sklearn.model_selection import train_test_split
 
-array = np.genfromtxt ("file1finale.csv", delimiter = ",", skip_header = 1)
+array = np.genfromtxt ("file2finale.csv", delimiter = ",", skip_header = 1)
 array = array.astype(int)
 
 data = [[0 for y in range(63)] for x in range(array.shape[0])]
@@ -19,7 +19,7 @@ for i in array:
 
 
 #suddividiamo il dataset in training set e test set;
-X_train, X_test, y_train, y_test = train_test_split(data, genere, test_size=0.3, shuffle=False)
+X_train, X_test, y_train, y_test = train_test_split(data, genere, test_size=0.3, shuffle=True)
 
 #scegliamo il classificatore che vogliamo utilizzare
 classifier = svm.SVC(gamma=0.001)
@@ -38,4 +38,11 @@ disp.figure_.suptitle("Confusion Matrix")
 print("Confusion matrix:\n%s" % disp.confusion_matrix)
 plt.show()
 
+maschi=0
+femmine=0
+for i in y_test:
+    if i==0:
+        maschi=maschi+1
+    else:
+        femmine=femmine+1
 
