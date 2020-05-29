@@ -23,13 +23,13 @@ if countM > countF:
 else:
     maggiore=countM
 
-#array3finale = [[0 for y in range(66)] for x in range(maggiore*2)]
+array3finale = [[0 for y in range(66)] for x in range(maggiore*2)]
 array4finale = [[0 for y in range(66)] for x in range(maggiore*2)]
 
 countM=0
 countF=0
 
-'''for i in array3:
+for i in array3:
     if i[66] == 0:
         if countM < maggiore:
             array3finale[count]= i
@@ -39,7 +39,7 @@ countF=0
         if countF < maggiore:
             array3finale[count]= i
             countF=countF + 1
-            count=count+1'''
+            count=count+1
 
 countM=0
 countF=0
@@ -57,5 +57,5 @@ for i in array4:
             countF=countF + 1
             count = count + 1
 
-#pd.DataFrame(array3finale).to_csv("file3finale.csv")
+pd.DataFrame(array3finale).to_csv("file3finale.csv")
 pd.DataFrame(array4finale).to_csv("file4finale.csv")
