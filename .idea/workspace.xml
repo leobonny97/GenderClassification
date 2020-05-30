@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f160d928-97be-4c89-bcdf-472051dd0d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GenderClassification/Classificatore80settori.py" afterDir="false" />
+    <list default="true" id="f160d928-97be-4c89-bcdf-472051dd0d60" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/GenderClassification/ClassificatoreProva.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenderClassification/Prova.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenderClassification/file1prova.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenderClassification/ControlloGenere6.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/ControlloGenere6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,34 +36,21 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Classificatore80settori">
-    <configuration name="Classificatore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GenderClassification" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/Classificatore.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ClassificatoreProva">
     <configuration name="Classificatore80settori" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -78,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ControlloGenere" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassificatoreProva" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +79,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/ControlloGenere.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/ClassificatoreProva.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,6 +92,9 @@
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -141,13 +132,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Prova" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GenderClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/Prova.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ClassificatoreProva" />
+        <item itemvalue="Python.Prova" />
+        <item itemvalue="Python.Prova" />
         <item itemvalue="Python.Classificatore80settori" />
         <item itemvalue="Python.Classificatore80settori" />
-        <item itemvalue="Python.ControlloGenere6" />
-        <item itemvalue="Python.ControlloGenere6" />
-        <item itemvalue="Python.Classificatore" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +184,10 @@
       <workItem from="1590566757224" duration="84000" />
       <workItem from="1590567936717" duration="173000" />
       <workItem from="1590739568084" duration="17051000" />
-      <workItem from="1590778056919" duration="3497000" />
+      <workItem from="1590778056919" duration="4237000" />
+      <workItem from="1590824467611" duration="65000" />
+      <workItem from="1590825427600" duration="5194000" />
+      <workItem from="1590834016364" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1589012690094</created>
@@ -236,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590777943813</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=".">
+      <created>1590823207426</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590823207426</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,18 +270,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1590777942644">
+    <state x="364" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590825436272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590777942644" />
+    <state x="364" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590825436272" />
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1590834128445">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590834128445" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1589445394353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589445394353" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1590777945972">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1590823210595">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590777945972" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590823210595" />
     <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1590822445611">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
