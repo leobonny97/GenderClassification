@@ -39,7 +39,7 @@ array1finale = [[0 for y in range(66)] for x in range(maggiore*2)]
 array2finale = [[0 for y in range(66)] for x in range(maggiore*2)]
 array3finale = [[0 for y in range(66)] for x in range(maggiore*2)]
 array4finale = [[0 for y in range(66)] for x in range(maggiore*2)]
-array5finale = [[0 for y in range(66)] for x in range(maggiore*2)]
+array5finale = [[0 for y in range(50)] for x in range(maggiore*2)]
 array6finale = [[0 for y in range(66)] for x in range(maggiore*2)]
 
 countM=0
@@ -111,12 +111,12 @@ countF=0
 count=0
 
 for i in array5:
-    if i[66] == 0:
+    if i[50] == 0:
         if countM < maggiore:
             array5finale[count]= i
             countM=countM+1
             count = count + 1
-    elif i[66] == 1:
+    elif i[50] == 1:
         if countF < maggiore:
             array5finale[count]= i
             countF=countF + 1
