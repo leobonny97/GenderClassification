@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f160d928-97be-4c89-bcdf-472051dd0d60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GenderClassification/ControlloGenere3e4.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/ControlloGenere3e4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenderClassification/Classificatore80settori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/ControlloGenere6.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/ControlloGenere6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +31,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GenderClassification" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Classificatore">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Classificatore80settori">
     <configuration name="Classificatore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -43,6 +51,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/Classificatore.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Classificatore80settori" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GenderClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/Classificatore80settori.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ControlloGenere3e4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ControlloGenere6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +110,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/ControlloGenere3e4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/ControlloGenere6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="calcolo_ragnatela1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ControlloGenereAll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,26 +132,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/calcolo_ragnatela1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="calcolo_ragnatela4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GenderClassification" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/calcolo_ragnatela4.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification\ControlloGenereAll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Classificatore80settori" />
+        <item itemvalue="Python.Classificatore80settori" />
+        <item itemvalue="Python.ControlloGenere6" />
+        <item itemvalue="Python.ControlloGenere6" />
         <item itemvalue="Python.Classificatore" />
-        <item itemvalue="Python.ControlloGenere3e4" />
-        <item itemvalue="Python.calcolo_ragnatela4" />
-        <item itemvalue="Python.ControlloGenere" />
-        <item itemvalue="Python.calcolo_ragnatela1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +170,8 @@
       <workItem from="1589990667578" duration="621000" />
       <workItem from="1590566757224" duration="84000" />
       <workItem from="1590567936717" duration="173000" />
-      <workItem from="1590739568084" duration="14209000" />
+      <workItem from="1590739568084" duration="17051000" />
+      <workItem from="1590778056919" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1589012690094</created>
@@ -206,7 +215,28 @@
       <option name="project" value="LOCAL" />
       <updated>1590775152239</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".">
+      <created>1590775205947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590775205947</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".">
+      <created>1590777762102</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590777762102</updated>
+    </task>
+    <task id="LOCAL-00009" summary=".">
+      <created>1590777943813</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590777943813</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,21 +247,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1590775151294">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1590777942644">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590775151294" />
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590777942644" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1589445394353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589445394353" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1590775156310">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1590777945972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590775156310" />
-    <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1590772759185">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590777945972" />
+    <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1590822445611">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="373" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1590772759185" />
+    <state x="373" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1590822445611" />
   </component>
 </project>
