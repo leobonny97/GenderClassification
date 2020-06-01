@@ -61,6 +61,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="AggiuntaEtà3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GenderClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/AggiuntaEtà3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Classificatore64settoriConEtà" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,28 +121,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ControlloGenereAll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GenderClassification" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification\ControlloGenereAll.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Prova" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,9 +146,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Classificatore64settoriConEtà" />
+        <item itemvalue="Python.AggiuntaEtà3" />
+        <item itemvalue="Python.Classificatore64settoriConEtà" />
         <item itemvalue="Python.AggiuntaEtà2" />
-        <item itemvalue="Python.ClassificatoreProva" />
-        <item itemvalue="Python.ClassificatoreProva" />
         <item itemvalue="Python.ClassificatoreProva" />
       </list>
     </recent_temporary>
@@ -180,7 +177,7 @@
       <workItem from="1590824467611" duration="65000" />
       <workItem from="1590825427600" duration="5194000" />
       <workItem from="1590834016364" duration="1804000" />
-      <workItem from="1591002037492" duration="3615000" />
+      <workItem from="1591002037492" duration="5279000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1589012690094</created>
@@ -259,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590834516783</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=".">
+      <created>1591008469313</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591008469313</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,18 +278,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="364" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590825436272" />
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1590834515705">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1591008468552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590834515705" />
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591008468552" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1589445394353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589445394353" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1590834518798">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1591008473198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590834518798" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591008473198" />
     <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1591005288394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
