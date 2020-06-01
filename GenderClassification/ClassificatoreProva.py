@@ -7,17 +7,18 @@ from sklearn.model_selection import train_test_split
 array = np.genfromtxt ("file1prova.csv", delimiter = ",", skip_header = 1)
 array = array.astype(int)
 
-data = [[0 for y in range(64)] for x in range(array.shape[0])]
+data = [[0 for y in range(65)] for x in range(array.shape[0])]
 genere = ['' for xx in range(array.shape[0])]
 
 count = 0
 
 for i in array:
-    data[count]= i[2:66]
-    data[count]=np.append(data[count],i[68])
-    genere[count] = i[67]
+    data[count]= i[1:65]
+    data[count]=np.append(data[count],i[67])
+    genere[count] = i[66]
     count = count + 1
 
+print(data.__len__())
 
 #suddividiamo il dataset in training set e test set;
 X_train, X_test, y_train, y_test = train_test_split(data, genere, test_size=0.3, shuffle=True)
