@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f160d928-97be-4c89-bcdf-472051dd0d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GenderClassification/AggiuntaPosaColoreFonteOcchialiDimensioneViso2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GenderClassification/file2finaleConTutto.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConTutto.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConTutto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
       <recent name="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AggiuntaOcchiali1">
+  <component name="RunManager" selected="Python.Classificatore64settoriConEtàOcchiali">
     <configuration name="AggiuntaFonte1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="AggiuntaPosaColoreFonteOcchialiDimensioneViso2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Classificatore64settoriConEtàFonte" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +89,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/AggiuntaPosaColoreFonteOcchialiDimensioneViso2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàFonte.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,20 +98,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Classificatore64settoriConEtàPosaColore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Classificatore64settoriConEtàOcchiali" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification\Classificatore64settoriConEtàPosaColore.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàOcchiali.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,10 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Classificatore64settoriConEtàOcchiali" />
+        <item itemvalue="Python.Classificatore64settoriConEtàFonte" />
         <item itemvalue="Python.AggiuntaOcchiali1" />
         <item itemvalue="Python.AggiuntaFonte1" />
-        <item itemvalue="Python.Classificatore64settoriConTutto" />
-        <item itemvalue="Python.AggiuntaPosaColoreFonteOcchialiDimensioneViso2" />
         <item itemvalue="Python.Classificatore64settoriConTutto" />
       </list>
     </recent_temporary>
@@ -177,7 +171,7 @@
       <workItem from="1590825427600" duration="5194000" />
       <workItem from="1590834016364" duration="1804000" />
       <workItem from="1591002037492" duration="15058000" />
-      <workItem from="1591027707973" duration="3569000" />
+      <workItem from="1591027707973" duration="4901000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1589012690094</created>
@@ -312,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591030383703</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=".">
+      <created>1591031606387</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591031606387</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,18 +328,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="364" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590825436272" />
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1591030382973">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1591031605215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591030382973" />
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591031605215" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1589445394353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589445394353" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1591030386223">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1591031608137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591030386223" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591031608137" />
     <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1591026613166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
