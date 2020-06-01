@@ -20,7 +20,7 @@ from PIL import ImageDraw
 from string import Template
 import string
 
-filegender=pd.read_csv('../train_gtruth.csv', index_col=0)
+filegender=pd.read_csv('train_gtruth.csv', index_col=0)
 array = np.genfromtxt ("train_gtruth.csv", delimiter = ",", skip_header = 1)
 array=array.astype(int)
 
@@ -137,7 +137,7 @@ def aggiungi(xcentro, ycentro, rax, xpunto, ypunto, distNaso, coeff, immm):
     return indice
 
 
-immagini = os.listdir('../Lara')
+immagini = os.listdir('Lara')
 
 num_volto = 0
 
@@ -232,6 +232,6 @@ for img in immagini:
         if ((num_volto % 200) == 0):
             print(num_volto)
 
-pd.DataFrame(file).to_csv("../file2.csv")
+pd.DataFrame(file).to_csv("file2.csv")
 
 print(num_volto)

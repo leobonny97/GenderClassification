@@ -14,7 +14,7 @@ count=0
 
 for (a) in array1:
     for (b) in array:
-        if (a[66]) == (b[0]):
+        if (a[50]) == (b[0]):
             file[count] = a[2:]
             file[count] = np.append(file[count], [b[2]])
             count = count + 1

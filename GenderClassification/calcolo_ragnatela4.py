@@ -137,7 +137,7 @@ def aggiungi(xcentro, ycentro, rax, xpunto, ypunto, distNaso, coeff, immm):
     return indice
 
 
-immagini = os.listdir('../Lara')
+immagini = os.listdir('Lara')
 
 num_volto = 0
 
@@ -232,6 +232,6 @@ for img in immagini:
         if ((num_volto % 200) == 0):
             print(num_volto)
 
-pd.DataFrame(file).to_csv("../file4.csv")
+pd.DataFrame(file).to_csv("file4.csv")
 
 print(num_volto)
