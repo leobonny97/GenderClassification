@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from sklearn import datasets, svm, metrics
 from sklearn.model_selection import train_test_split
 
-array = np.genfromtxt ("file1finaleConEtàEPosa.csv", delimiter = ",", skip_header = 1)
+array = np.genfromtxt ("file1finaleConEtàPosaColoreDimensioneViso.csv", delimiter = ",", skip_header = 1)
 array = array.astype(int)
 
-data = [[0 for y in range(66)] for x in range(array.shape[0])]
+data = [[0 for y in range(68)] for x in range(array.shape[0])]
 genere = ['' for xx in range(array.shape[0])]
 
 count = 0

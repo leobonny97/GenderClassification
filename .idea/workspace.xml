@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f160d928-97be-4c89-bcdf-472051dd0d60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GenderClassification/AggiuntaPosaColoreDimensioneViso1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenderClassification/AggiuntaPosaColoreFonteOcchialiDimensioneViso1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàPosaColoreDimensioneViso.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConTutto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/AggiuntaColore1.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/AggiuntaColore1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/AggiuntaPosa1.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/AggiuntaPosa1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàEColore.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàColore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàEPosa.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàPosa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàPosaEColore.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàPosaColore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/RisultatiClassificatoreDatiConEtàEColore1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/RisultatiClassificatoreDatiConEtàColore1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/RisultatiClassificatoreDatiConEtàEPosa1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/RisultatiClassificatoreDatiConEtàPosa1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/file1finaleConEtàEColore.csv" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/file1finaleConEtàColore.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/file1finaleConEtàEPosa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/file1finaleConEtàPosa.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +46,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Classificatore64settoriConEtàPosaEColore">
+  <component name="RunManager" selected="Python.Classificatore64settoriConEtàPosaColore">
     <configuration name="AggiuntaEtà6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Classificatore64settoriConEtàPosaEColore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Classificatore64settoriConEtàPosaColore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +102,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/Classificatore64settoriConEtàPosaEColore.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification\Classificatore64settoriConEtàPosaColore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Classificatore64settoriConEtàPosaEColore" />
+        <item itemvalue="Python.Classificatore64settoriConEtàPosaColore" />
         <item itemvalue="Python.AggiuntaPosaEColore1" />
         <item itemvalue="Python.Classificatore80settoriConEtà" />
         <item itemvalue="Python.AggiuntaEtà6" />
@@ -173,7 +186,7 @@
       <workItem from="1590824467611" duration="65000" />
       <workItem from="1590825427600" duration="5194000" />
       <workItem from="1590834016364" duration="1804000" />
-      <workItem from="1591002037492" duration="11536000" />
+      <workItem from="1591002037492" duration="13508000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1589012690094</created>
@@ -280,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591016731536</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=".">
+      <created>1591020731339</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591020731339</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,21 +315,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="364" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590825436272" />
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1591016730982">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1591020730829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591016730982" />
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591020730829" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1589445394353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589445394353" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1591016791060">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1591020732746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591016791060" />
-    <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1591020095293">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591020732746" />
+    <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1591020534193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="373" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1591020095293" />
+    <state x="373" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1591020534193" />
   </component>
 </project>
