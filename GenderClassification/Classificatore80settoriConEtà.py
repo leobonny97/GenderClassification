@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn import datasets, svm, metrics
 from sklearn.model_selection import train_test_split
 
-array = np.genfromtxt ("file1finaleConEtà.csv", delimiter = ",", skip_header = 1)
+array = np.genfromtxt ("file6finaleConEtà.csv", delimiter = ",", skip_header = 1)
 array = array.astype(int)
 
 data = [[0 for y in range(81)] for x in range(array.shape[0])]
