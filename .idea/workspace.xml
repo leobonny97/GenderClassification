@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f160d928-97be-4c89-bcdf-472051dd0d60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenderClassification/ClassificatoreKNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenderClassification/Classificatore48settoriKNN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
       <recent name="C:\Users\dani-\PycharmProjects\GenderClassification\GenderClassification" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ClassificatoreKNN">
+  <component name="RunManager" selected="Python.Classificatore48settoriKNN">
     <configuration name="AggiuntaPosaColoreDimensioneViso3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GenderClassification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +79,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/AggiuntaPosaColoreDimensioneViso6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Classificatore48settoriKNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GenderClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/Classificatore48settoriKNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,35 +150,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ClassificatoreKNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GenderClassification" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GenderClassification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenderClassification/ClassificatoreKNN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ClassificatoreKNN" />
-        <item itemvalue="Python.ClassificatoreKNN" />
-        <item itemvalue="Python.ClassificatoreKNN" />
-        <item itemvalue="Python.ClassificatoreKNN" />
-        <item itemvalue="Python.ClassificatoreKNN" />
+        <item itemvalue="Python.Classificatore48settoriKNN" />
+        <item itemvalue="Python.Classificatore48settoriKNN" />
+        <item itemvalue="Python.Classificatore48settoriKNN" />
+        <item itemvalue="Python.Classificatore48settoriKNN" />
+        <item itemvalue="Python.Classificatore48settoriKNN" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +201,8 @@
       <workItem from="1592486083338" duration="455000" />
       <workItem from="1592761392374" duration="3026000" />
       <workItem from="1592820357310" duration="4208000" />
+      <workItem from="1592831433439" duration="336000" />
+      <workItem from="1592839277561" duration="2933000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1589012690094</created>
@@ -407,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591862004524</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=".">
+      <created>1592831720139</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1592831720139</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,10 +429,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="364" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1591173425039" />
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1591862003436">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1592831719515">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591862003436" />
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592831719515" />
     <state x="455" y="66" key="RollbackChangesDialog" timestamp="1591178743289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -434,20 +441,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592763278458" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1591862006676">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1592831721991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591862006676" />
-    <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1591178773968">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592831721991" />
+    <state x="373" y="152" key="git4idea.merge.GitPullDialog" timestamp="1592831449828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="373" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1591178773968" />
+    <state x="373" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1592831449828" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GenderClassification/ClassificatoreKNN.py</url>
+          <url>file://$PROJECT_DIR$/GenderClassification/Classificatore48settoriKNN.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

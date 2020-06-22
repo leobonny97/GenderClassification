@@ -23,6 +23,7 @@ X_train, X_test, y_train, y_test = train_test_split(data, genere, test_size=0.3,
 
 #scegliamo il classificatore che vogliamo utilizzare
 classifier = KNeighborsClassifier()
+#classifier = KNeighborsClassifier(n_neighbors=13)
 
 #alleniamo l'algoritmo utilizzando il training set
 classifier.fit(X_train, y_train)
